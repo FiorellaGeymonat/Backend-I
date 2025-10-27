@@ -6,7 +6,7 @@ const router = Router();
 const cm = new CartManager();
 
 
-// POST /api/carts -> crea carrito
+// POST /api/carts
 router.post("/", async (req, res) => {
 try {
 const cart = await cm.createCart();
@@ -17,7 +17,7 @@ res.status(500).json({ error: e.message });
 });
 
 
-// GET /api/carts/:cid -> productos del carrito
+// GET /api/carts/:cid 
 router.get("/:cid", async (req, res) => {
 try {
 const cart = await cm.getCartById(req.params.cid);
@@ -29,7 +29,7 @@ res.status(500).json({ error: e.message });
 });
 
 
-// POST /api/carts/:cid/product/:pid -> agrega producto (o incrementa quantity)
+// POST /api/carts/:cid/product/:pid 
 router.post("/:cid/product/:pid", async (req, res) => {
 try {
 const { cid, pid } = req.params;

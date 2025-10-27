@@ -6,7 +6,6 @@ import cartsRouter from "./routes/carts.router.js";
 const app = express();
 
 
-// Middlewares bobis para entender JSON
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

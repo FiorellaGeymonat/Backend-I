@@ -1,0 +1,17 @@
+{
+"name": "backend-entrega-1",
+"version": "1.0.0",
+"description": "API de productos y carritos (Entrega 1)",
+"main": "src/server.js",
+"type": "module",
+"scripts": {
+"start": "node src/server.js",
+"dev": "nodemon src/server.js"
+},
+"dependencies": {
+"express": "^4.19.2"
+},
+"devDependencies": {
+"nodemon": "^3.1.0"
+}
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "cart_mh9phg2and8rhe",
+    "products": []
+  },
+  {
+    "id": "cart_mh9phr8crq4hgq",
+    "products": []
+  },
+  {
+    "id": "cart_mh9pj73n9pekmo",
+    "products": [
+      {
+        "product": "prod_mh9pf0zjwrs5l6",
+        "quantity": 1
+      }
+    ]
+  }
+]

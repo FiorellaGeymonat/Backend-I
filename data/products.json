@@ -1,0 +1,28 @@
+[
+  {
+    "id": "prod_mh9pf0zjwrs5l6",
+    "title": "Teclado mecánico RGB",
+    "description": "Switches rojos, retroiluminado y con reposamuñecas",
+    "code": "KEY001",
+    "price": 3200,
+    "status": true,
+    "stock": 25,
+    "category": "perifericos",
+    "thumbnails": [
+      "/img/teclado.png"
+    ]
+  },
+  {
+    "id": "prod_mh9pfbltu75vbx",
+    "title": "Auriculares inalámbricos",
+    "description": "Bluetooth 5.3, cancelación de ruido y estuche de carga",
+    "code": "AUD001",
+    "price": 4500,
+    "status": true,
+    "stock": 40,
+    "category": "audio",
+    "thumbnails": [
+      "/img/auriculares.png"
+    ]
+  }
+]
